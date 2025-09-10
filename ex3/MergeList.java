@@ -24,7 +24,7 @@ public class MergeList {
 
         int desenfileira() {
             if (inicio == null) {
-                return Integer.MIN_VALUE;
+                return -1;
             }
             int v = inicio.valor;
             inicio = inicio.prox;
@@ -33,7 +33,7 @@ public class MergeList {
         }
 
         int frente() {
-            if (inicio == null) return Integer.MIN_VALUE;
+            if (inicio == null) return -1;
             return inicio.valor;
         }
 
@@ -104,3 +104,4 @@ public class MergeList {
         sc.close();
     }
 }
+
