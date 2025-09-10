@@ -21,7 +21,7 @@ Este repositório contém implementações em Java das seguintes estruturas e op
 1. Clone este repositório:
 
    	bash
-   git clone https://github.com/seuusuario/seurepositorio.git
+   git clone https://github.com/esc5050/tde1.git
    cd seurepositorio
    
 
